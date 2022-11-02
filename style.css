@@ -137,7 +137,7 @@ body {
 
 /* Completed */
 
-.task-complete .task-label {
+.task-complete .task-label, .task-completed .task-label {
     text-decoration: line-through;
     color: #888;
 }
