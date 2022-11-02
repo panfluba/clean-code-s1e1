@@ -4,33 +4,35 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .header {
     text-align: right;
 }
+
 .centered {
     display: block;
     width: 500px;
     margin: 0 auto 0;
-  }
+}
 
 @media (max-width:768px) {
-.header { 
-    text-align: center;
-}
+    .header {
+        text-align: center;
+    }
 }
 
 .header-image {
     width: 100%;
     display: block;
-  }
-  
-  .header .more-inf {
+}
+
+.header .more-inf {
     font-family: fantasy, cursive;
-  }
-  
-  .task-row-wrapper {
+}
+
+.task-row-wrapper {
     display: flex;
-  }
+}
 
 .button {
     background: none;
@@ -42,9 +44,11 @@ body {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 .button:hover {
     color: #3a3a3a;
 }
+
 /* Heading */
 .tasks-title,
 .add-tasks-title {
@@ -84,7 +88,7 @@ body {
 
 .task-checkbox {
     margin: 0 10px;
-  }
+}
 
 .task-label {
     padding-left: 10px;
@@ -97,28 +101,28 @@ body {
 
 .new-task-input,
 .task-input {
-  margin: 0;
-  font-size: 18px;
-  line-height: 21px;
-  height: 21px;
-  padding: 0 9px;
-  border: 1px solid #ddd;
-  background: #fff;
-  border-radius: 6px;
-  font-family: Lato, sans-serif;
-  color: #888;
-  flex-grow: 1;
-  outline: none;
-  box-sizing: border-box;
+    margin: 0;
+    font-size: 18px;
+    line-height: 21px;
+    height: 21px;
+    padding: 0 9px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    color: #888;
+    flex-grow: 1;
+    outline: none;
+    box-sizing: border-box;
 }
 
 .task-input {
     display: none;
-  }
+}
 
 .new-task-input:focus,
 .task-input:focus {
-  color: #333;
+    color: #333;
 }
 
 .delete-image {
@@ -126,13 +130,14 @@ body {
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
+
 .delete-image:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
 
-.task-complete .task-label{
+.task-complete .task-label {
     text-decoration: line-through;
     color: #888;
 }
@@ -140,10 +145,11 @@ body {
 /* Edit Task */
 
 ul li.edit-mode input[type=text] {
-    display:inline-block;
-    width:224px;
+    display: inline-block;
+    width: 224px;
 }
 
-.edit-mode label, ul li input[type=text] {
-    display:none;
+.edit-mode label,
+ul li input[type=text] {
+    display: none;
 }
